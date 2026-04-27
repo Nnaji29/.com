@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Discover your dream car</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+
+<body>
+
+
+
+    <header>
+
+        <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=756,fit=crop,f=jpeg/A85VMQaVXEC80gLR/logo---fb---hd-AzGN41eDLWCnRBng.png"
+            width="350" , height="220" , Vehicle Search Logo class="logo">
+
+        <h1>Discover your dream car</h1>
+
+        <h2>The one and only, the ultimate destination for vehicles worldwide.</h2>
+
+    </header>
+
+
+
+    <section class="controls">
+
+
+
+        <input type="text" id="searchInput" placeholder="Search by make or model...">
+
+
+
+        <select id="fuelFilter">
+
+            <option value="">All Fuel Types</option>
+
+            <option value="Petrol">Petrol</option>
+
+            <option value="Diesel">Diesel</option>
+
+            <option value="Electric">Electric</option>
+
+            <option value="Hybrid">Hybrid</option>
+
+        </select>
+
+
+
+        <select id="colourFilter">
+
+            <option value="">All Colours</option>
+
+            <option value="Black">Black</option>
+
+            <option value="White">White</option>
+
+            <option value="Red">Red</option>
+
+            <option value="Blue">Blue</option>
+
+            <option value="Silver">Silver</option>
+
+        </select>
+
+        <button onclick="searchVehicles()">Search</button>
+
+
+
+    </section>
+
+
+
+    <section id="results" class="results"></section>
+
+
+
+    <script src="script.js"></script>
+
+
+
+</body>
+
+
+
+</html>
